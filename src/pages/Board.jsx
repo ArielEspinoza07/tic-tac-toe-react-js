@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import confetti from 'canvas-confetti'
 
-import { Square } from './components/Square.jsx'
-import { WinnerModal } from './components/index.jsx'
+import { Square, WinnerModal } from './components/index.jsx'
 
 import { StorageKeys, TURNS } from '../constants/index.js'
+
 import {
   checkWinner,
   checkEndGame,
